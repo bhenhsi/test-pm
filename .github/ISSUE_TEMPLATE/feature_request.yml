@@ -28,8 +28,8 @@ body:
     id: improve
     attributes:
       label: How can we improve?
-      description: Tell us the problem and solution you'd like.
-      placeholder: Tell us what you think! 
-      value: "Describe the feature request."
+      description: Tell us what you think! 
+      placeholder: Tell us the problem and solution you'd like.
+      value: 
     validations:
       required: true
