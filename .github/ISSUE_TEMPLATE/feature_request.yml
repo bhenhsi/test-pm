@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share your idea with us!
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which Sui project are you providing feedback for?
+      options:
+        - Fullnode or Validator
+        - Sui Wallet
+        - RPC/API
+        - CLI
+        - Move
+        - Sui Explorer
+        - Tokenomics
+        - SDK
+        - Others
+    validations:
+      required: true
+  - type: textarea
+    id: improve
+    attributes:
+      label: How can we improve?
+      description: Tell us yhe problem, and the solution you'd like.
+      placeholder: Tell us what you think! 
+      value: "Describe the feature request."
+    validations:
+      required: true
