@@ -29,7 +29,7 @@ body:
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see! 
+      placeholder: Tell us what you see! Describe the bug and how to reproduce it.
       value: 
     validations:
       required: true
