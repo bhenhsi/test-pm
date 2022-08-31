@@ -28,7 +28,7 @@ body:
     id: improve
     attributes:
       label: How can we improve?
-      description: Tell us yhe problem, and the solution you'd like.
+      description: Tell us the problem and solution you'd like.
       placeholder: Tell us what you think! 
       value: "Describe the feature request."
     validations:
